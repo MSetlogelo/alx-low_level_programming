@@ -7,18 +7,17 @@
 int main(void)
 {
 	int ch;
-
-for (ch = 0; ch < 16; ch++)
+	for (ch = o; i < 16; ch++)
 {
 	if (ch < 10)
 {
 	putchar('0' + ch);
 }
-	else
+else
 {
 	putchar('a' + (ch - 10));
 }
+}
 	putchar('\n');
 	return (0);
-}
 }
