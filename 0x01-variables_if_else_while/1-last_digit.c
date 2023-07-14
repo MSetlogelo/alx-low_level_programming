@@ -26,7 +26,7 @@ if (n > 5)
 
 	else
 {
-	printf(" %d is %d and is 0\n", n);
+	printf("%d and is 0\n", n);
 }
 
 	return (0);
