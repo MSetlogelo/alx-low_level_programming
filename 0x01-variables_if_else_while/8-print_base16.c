@@ -21,3 +21,4 @@ for (ch = 0; ch < 16; ch++)
 	putchar('\n');
 	return (0);
 }
+}
