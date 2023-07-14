@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	int c,h;
+	int c, h;
 
 	for (c = 0; c < 9; c++)
 {
-	for(h = c + 1; h < 10; h++)
-{	
+	for (h = c + 1; h < 10; h++)
+{
 	putchar('0' + c);
 	putchar('0' + h);
-	if (c !=8 || h != 9)
+if (c != 8 || h != 9)
 {
 	putchar(',');
 	putchar(' ');
