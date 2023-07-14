@@ -7,7 +7,8 @@
 int main(void)
 {
 	int ch;
-	for (ch = 0; i < 16; ch++)
+
+	for (ch = 0; ch < 16; ch++)
 {
 	if (ch < 10)
 {
