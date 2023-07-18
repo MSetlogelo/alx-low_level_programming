@@ -1,13 +1,16 @@
 #include "main.h"
+#include <ctype.h>
 /**
-* void _islower using 'c' - Checks whether a char is in lowercare or not
+* _islower - Checks whether a char is in lowercare or not
 *
-* Return: Always 0 (Success)
+* @c: the char in ASCII code
+*
+* Return: 1 for lowercase char. 0 for the rest.
 */
 /* betty style doc for function main goes there*/
-void _islower(int c)
+int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
@@ -15,4 +18,5 @@ void _islower(int c)
 	{
 		return (0);
 	}
+	_putchar('\n');
 }
