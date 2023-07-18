@@ -2,9 +2,9 @@
 /**
 * main - Entry point
 *
-* Return: Always 0 (Success)
+* print_alphabet_x10 - Prints the alphabet 10 times
 *
-* print_alphabet_x10 - prints alphabets 10 times
+* Return: Always 0 (Success)
 */
 /* betty style doc for function main goes there*/
 void print_alphabet_x10(void)
