@@ -6,11 +6,12 @@ include "main.h"
 */
 void print_alphabet(void)
 {
-	int c;
+	char alpha = 'a';
 
-	for (c = 97; c <= 122; c++)
+	while (alpha <= 'z')
 	{
-		_puntchar(c);
+		_puntchar(alpha);
+		alpha++;
 	}
 	_putchar('\n');
 }
