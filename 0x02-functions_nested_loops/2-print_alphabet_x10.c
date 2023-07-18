@@ -1,7 +1,10 @@
 #include "main.h"
 /**
-**print_alphabet_x10
+* main - Entry point
+* 
+* print_alphabet_x10
 */
+/* betty style doc for function main goes there*/
 void print_alphabet_x10(void)
 {
 	int i;
