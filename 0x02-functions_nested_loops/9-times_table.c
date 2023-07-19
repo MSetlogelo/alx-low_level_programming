@@ -30,7 +30,7 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
-			_putcharr(product + '0');
+			_putchar(product + '0');
 		}
 	}
 	_putchar('$');
