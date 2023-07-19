@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype>
+#include <ctype.h>
 /*
  * _abs - Calculates the abolute value of an int.
  *
