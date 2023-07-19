@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - mainn Entry 
+ * main - mainn Entry
  *
  * print the sum of the even numbers that don't exceed 4,000,000;
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
