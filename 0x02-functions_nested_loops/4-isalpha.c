@@ -7,7 +7,7 @@
 *
 * Return: 1 for lowercase char. 0 for the rest.
 */
-int _isalpha(int c)
+int test_isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
