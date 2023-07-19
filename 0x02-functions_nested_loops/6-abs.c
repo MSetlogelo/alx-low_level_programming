@@ -5,7 +5,7 @@
  *
  * @i: input no. as an int.
  *
- * Return absolute value
+ * Return: i or 1 * -1 (absolute value)
  */
 int _abs(int i)
 {
