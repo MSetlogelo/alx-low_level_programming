@@ -1,7 +1,9 @@
 #include "main.h"
-#include <stdio.h>
+#include <ctype.h>
 /**
  * print_sign - depending on a number, a sighn will be printed.
+ *
+ * @n: the char in ASCII code
  *
  * Return: 1,0 or -1.
  */
@@ -9,17 +11,17 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		putchar('+');
+		_putchar(43);
 		return (1);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-		putchar('O');
-		return (0);
+		_putchar(45);
+		return (-1);
 	}
 	else
 	{
-		putchar('-');
-		return (-1);
+		putchar(48);
+		return (0);
 	}
 }
