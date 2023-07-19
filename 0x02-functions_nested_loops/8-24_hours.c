@@ -15,7 +15,7 @@ void jack_bauer(void)
 		{
 			for (a = 0; a <= 5; a++)
 			{
-				for (r >= 0; r <= 9; r++)
+				for (r = 0; r <= 9; r++)
 				{
 					if (c >= 2 && h >= 4)
 						break;
