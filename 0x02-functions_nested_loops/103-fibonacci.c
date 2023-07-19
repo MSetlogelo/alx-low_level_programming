@@ -8,24 +8,22 @@
 int main(void)
 {
 	int c;
-	unsigned long int h, a, n, sum;
+	int h, a, sum;
 
 	h = 1;
 	a = 2;
 	sum = 0;
 
-	for (c = 1; c <= 33; ++c)
+	while (a < 4000000)
 	{
-		if (h < 4000000 && (h % 2) == 0)
-		{
-			sum = sum + h;
-		}
+		if (a % 2 == 0)
+			sum += a;
 
-		n = h + a;
 		c = a;
-		a = n;
+		a += h;
+		h = c;
 	}
-	printf("%lu\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 
