@@ -1,16 +1,17 @@
 #include "main.h"
 #include <ctype.h>
 /**
-* int _isalpha - Checks for alphabet characters.
+*_isalpha - Checks for alphabet characters.
 *
 * @c: the char in ASCII code
 *
 * Return: 1 for lowercase char. 0 for the rest.
 */
-/* betty style doc for function main goes there*/
 int _isalpha(int c)
 {
-	if (c >= 97 && c <= 122) || (c >= 65 && c <= 90)
+	if (c >= 97 && c <= 122)
+	||
+	(c >= 65 && c <= 90)
 	{
 		return (1);
 	}
