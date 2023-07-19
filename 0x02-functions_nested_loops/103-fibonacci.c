@@ -22,7 +22,7 @@ int main(void)
 		}
 
 		n = h + a;
-		j = a;
+		c = a;
 		a = n;
 	}
 	printf("%lu\n", sum);
